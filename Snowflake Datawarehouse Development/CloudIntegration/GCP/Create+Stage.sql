@@ -11,4 +11,4 @@ create or replace stage ADAM_DB.public.stage_gcp
     URL = 'gcs://SFADAMgcpbucket'
     FILE_FORMAT = fileformat_gcp;
 
-LIST @demo_db.public.stage_gcp;
+LIST @ADAM_DB.public.stage_gcp;
