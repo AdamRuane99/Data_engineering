@@ -1,0 +1,22 @@
+[
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com",
+        "sourceRelativeURL":"AdamRuane99/Data_engineering/tree/main/ADF-%20Azure%20Data%20Factory/ECDC_data/cases_deaths.csv",
+        "sinkFileName":"cases_deaths.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"AdamRuane99/Data_engineering/tree/main/ADF-%20Azure%20Data%20Factory/ECDC_data/hospital_admissions.csv",
+        "sinkFileName":"hospital_admissions.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"AdamRuane99/Data_engineering/tree/main/ADF-%20Azure%20Data%20Factory/ECDC_data/testing.csv",
+        "sinkFileName":"testing.csv"
+    },
+    {
+        "sourceBaseURL":"https://github.com",
+        "sourceRelativeURL":"AdamRuane99/Data_engineering/tree/main/ADF-%20Azure%20Data%20Factory/ECDC_data/country_response.csv",
+        "sinkFileName":"country_response.csv"
+    }
+]
