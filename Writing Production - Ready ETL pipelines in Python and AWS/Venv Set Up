@@ -1,0 +1,4 @@
+cd C:\Users\Adam\xetra_project
+
+conda create --prefix=xetraenv python=3.8
+
