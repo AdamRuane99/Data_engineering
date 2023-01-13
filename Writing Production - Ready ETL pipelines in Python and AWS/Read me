@@ -27,7 +27,7 @@ integration testing
 dockerization
 
 
-The ETL Pipeline we are going to create will extract the Xetra dataset from the AWS S3 source bucket on a scheduled basis, create a report using transformations and load the transformed data to another AWS S3 target bucket.
+The ETL Pipeline I have created will extract the Xetra dataset from the AWS S3 source bucket on a scheduled basis, create a report using transformations and load the transformed data to another AWS S3 target bucket.
 
 The pipeline will be written in a way that it can be deployed easily to almost any production environment that can handle containerized applications. 
 The production environment I created is going to write the ETL pipeline for consists of a GitHub Code repository, a DockerHub Image Repository, an execution platform such as Kubernetes and an Orchestration tool such as the container-native Kubernetes workflow engine Argo Workflows or Apache Airflow.
